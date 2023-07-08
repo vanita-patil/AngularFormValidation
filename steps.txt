@@ -1,0 +1,14 @@
+1. import form module
+
+app.module.ts
+import { FormsModule } from '@angular/forms';
+   imports: [
+    BrowserModule,
+    FormsModule
+  ],
+
+2.when form will submit angular provide us inbuild angular event ngSubmit.
+<form (ngSubmit)="onSubmit()">
+
+3. specify local reference variable.
+
